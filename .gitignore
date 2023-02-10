@@ -10,7 +10,7 @@
 
 # production
 /build
-/storybook-static
+/docs
 
 # misc
 .DS_Store
