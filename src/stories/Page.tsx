@@ -3,11 +3,11 @@ import React from 'react';
 import { Header } from './Header';
 import './page.css';
 
-type User = {
+export type User = {
   name: string;
 };
 
-export const Page: React.VFC = () => {
+export const Page: React.FC<any> = () => {
   const [user, setUser] = React.useState<User>();
 
   return (
