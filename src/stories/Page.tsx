@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header } from './Header';
 import './page.css';
+import Button from "./Button";
 
 export type User = {
   name: string;
@@ -71,3 +72,6 @@ export const Page: React.FC<any> = () => {
     </article>
   );
 };
+
+
+export default Page
